@@ -35,7 +35,7 @@ typedef struct err
 {
 	unsigned short int op_code_err;
 	unsigned short int err_code;
-	char *err_msg;
+	char err_msg[100];
 }ERR_t;
 
 typedef union 
